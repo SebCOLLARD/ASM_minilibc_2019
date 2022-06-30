@@ -1,9 +1,30 @@
 # ASM_minilibc_2019
 
-Le Makefile fournis une librairies partager.
-Pou utiliser la librairie vous devais definir le variable LD_PRELOAD de votre environement un incluant le chemin 
-de la libriarie.
+Second year project @ EPITECH (Eureopean Institute of Technology).
 
-Example zsh : ```export LD_PRELOAD=~/ASM_minilibc_2019/libasm.so```
+The objectif of this project was to build a C function library coded in ASM x86_64.
 
-Example tcsh : ```setenv LD_PRELOAD /home/ASM_minilibc_2019/libasm.so```
+This library containt the following C function:
+ 
+ - memcpy
+ - memset
+ - strchr
+ - strcmp
+ - strlen
+ - strncmp
+## Installation
+
+Make that you have make install on your PC.
+
+### Generate the library
+
+You just have to use the `make` command in the project directory.
+
+### Setup the evironement variable
+
+ZSH user : `export LD_PRELOAD=~/ASM_minilibc_2019/libasm.so`
+
+TCSH user : `setenv LD_PRELOAD /home/ASM_minilibc_2019/libasm.so`
+## Authors
+
+- [@SebCollard](https://github.com/SebCOLLARD)
